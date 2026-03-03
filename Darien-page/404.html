@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Darien Aesthetics">
+    <meta name="robots" content="noindex">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <title>Page Not Found | Darien Aesthetics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .lato {
+            font-family: 'Lato', sans-serif;
+        }
+        .purple-accent {
+            color: #8A2BE2;
+        }
+        .bg-purple-accent {
+            background-color: #8A2BE2;
+        }
+        .border-purple-accent {
+            border-color: #8A2BE2;
+        }
+        
+        .error-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+    </style>
+</head>
+<body class="lato text-gray-900 bg-gradient-to-br from-purple-50 to-pink-50 min-h-screen flex items-center justify-center">
+    <div class="container mx-auto px-4 py-12 text-center">
+        <div class="max-w-2xl mx-auto">
+            <!-- Error Icon -->
+            <div class="error-animation mb-8">
+                <i class="fas fa-exclamation-triangle text-8xl text-purple-600"></i>
+            </div>
+            
+            <!-- Error Code -->
+            <div class="text-9xl font-bold text-purple-800 mb-4 playfair">404</div>
+            
+            <!-- Error Message -->
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6 playfair">Page Not Found</h1>
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                Oops! The page you're looking for doesn't exist or has been moved. 
+                Don't worry, we can help you find your way back.
+            </p>
+            
+            <!-- Search Form -->
+            <div class="mb-10">
+                <form action="#" method="GET" class="flex max-w-md mx-auto">
+                    <input type="text" placeholder="Search our services..." class="flex-grow px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:border-purple-accent focus:ring-2 focus:ring-purple-200">
+                    <button type="submit" class="bg-purple-accent text-white px-6 py-3 rounded-r-lg hover:bg-purple-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <a href="indexs.html" class="bg-purple-accent text-white font-bold py-3 px-8 rounded-full hover:bg-purple-700 transition duration-300 inline-flex items-center">
+                    <i class="fas fa-home mr-2"></i> Home
+                </a>
+                <a href="indexs.html#services" class="border-2 border-purple-accent text-purple-accent font-bold py-3 px-8 rounded-full hover:bg-purple-accent hover:text-white transition duration-300 inline-flex items-center">
+                    <i class="fas fa-concierge-bell mr-2"></i> Services
+                </a>
+                <a href="indexs.html#contact" class="border-2 border-purple-accent text-purple-accent font-bold py-3 px-8 rounded-full hover:bg-purple-accent hover:text-white transition duration-300 inline-flex items-center">
+                    <i class="fas fa-phone-alt mr-2"></i> Contact
+                </a>
+            </div>
+            
+            <!-- Support Information -->
+            <div class="bg-white rounded-xl shadow-lg p-8 max-w-lg mx-auto">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4 playfair">Need Help?</h3>
+                <p class="text-gray-600 mb-6">
+                    If you're having trouble finding what you're looking for, our team is here to help.
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-phone text-purple-accent mr-3"></i>
+                        <span class="text-gray-700">(203) 555-1234</span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <i class="fas fa-envelope text-purple-accent mr-3"></i>
+                        <span class="text-gray-700">info@darienaesthetics.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-black text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400">
+                &copy; 2023 Darien Aesthetics. All rights reserved.
+            </p>
+            <p class="text-gray-500 text-sm mt-2">
+                <a href="indexs.html" class="hover:text-purple-300 transition duration-300">Back to Home</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add keyboard support for accessibility
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                // Focus on main content
+                document.querySelector('h1').focus();
+            }
+        });
+    </script>
+</body>
+</html>
